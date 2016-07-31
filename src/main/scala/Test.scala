@@ -8,8 +8,14 @@ object Test extends App{
 
 
   val start = System.currentTimeMillis()
-  println(new LargestProductInGrid().retrieveMax)
+  println(new FactorialDigitSum().digitSum)
   println(System.currentTimeMillis() - start)
+  //println(new NumberLetterCounts().eval(1000))
+  //println(new LongestCollatzSequence().findLongest)
+  //println(new PowerDigitSum().res)
+  //println(new LargeSum().findSum)
+  //println(new P12_HighlyDivisibleTriangularNumber().findHighlyDivisibleTriangularNumber(500))
+  //println(new LargestProductInGrid().retrieveMax)
   //println(new SummationOfPrimes().sum(10))
   //println(new SpecialPythagoreanTriplet().findProd)
   //println(new LargestProductInSeries().maxProd(13))

@@ -39,8 +39,6 @@ class LargestProductInGrid {
     List(hor, ver, diagonR, diagonL).max
   }
 
-  //def vertical (arr: Array[Array[Int]]): Long = horizontal(arr.transpose)
-
   def rowBased(arr: Array[Array[Int]]): Long = {
     val x = for (i <- 0 until arr.length)
       yield eval(arr(i), 0)
