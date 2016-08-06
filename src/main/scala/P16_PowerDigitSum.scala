@@ -1,7 +1,7 @@
 /**
   * Created by cyeniceri on 30.07.2016.
   */
-class PowerDigitSum {
+class P16_PowerDigitSum {
 
   val exp20:BigInt = 32768*32
   val exp1000 = exp20.pow(50)

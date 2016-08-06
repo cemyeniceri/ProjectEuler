@@ -1,7 +1,7 @@
 /**
   * Created by cyeniceri on 27.07.2016.
   */
-class LargestProductInGrid {
+class P11_LargestProductInGrid {
 
   val text =
     """

@@ -1,7 +1,7 @@
 /**
   * Created by cyeniceri on 30.07.2016.
   */
-class LongestCollatzSequence {
+class P14_LongestCollatzSequence {
 
   def eval(number: Long, count: Long): Long = {
     if(number==1)

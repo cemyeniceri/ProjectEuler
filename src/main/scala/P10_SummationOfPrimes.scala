@@ -1,7 +1,7 @@
 /**
   * Created by cyeniceri on 25.07.2016.
   */
-class SummationOfPrimes {
+class P10_SummationOfPrimes {
 
   def isPrime(n: Long): Boolean = {
     val rootNumber = scala.math.pow(n, 0.5)

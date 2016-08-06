@@ -1,7 +1,7 @@
 /**
-  * Created by Administrator on 31.07.2016.
+  * Created by cyeniceri on 31.07.2016.
   */
-class FactorialDigitSum {
+class P20_FactorialDigitSum {
 
   def fact(n: Int): BigInt = {
     def loop(actNum: Int, acc:BigInt): BigInt = {

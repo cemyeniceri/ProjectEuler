@@ -1,7 +1,7 @@
 /**
   * Created by cyeniceri on 22.07.2016.
   */
-class LargestPalindromeProduct {
+class P4_LargestPalindromeProduct {
 
   def isPallindrome(str: String) = str == str.reverse
 
@@ -9,7 +9,7 @@ class LargestPalindromeProduct {
     val divisor = (100 to 999).toList
     val isDivisibleFirstTerm = divisor.filter(number%_==0)
     val res = if(isDivisibleFirstTerm.nonEmpty)isDivisibleFirstTerm.find(x=> (number/x).toString.length==3) else None
-      !res.isEmpty
+      res.isDefined
   }
 
   def generateMaxProduct(): Int = {

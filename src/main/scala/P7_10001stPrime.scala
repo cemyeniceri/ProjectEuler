@@ -1,7 +1,7 @@
 /**
   * Created by cyeniceri on 23.07.2016.
   */
-class _10001stPrime {
+class P7_10001stPrime {
   def findNthPrime(n: Int): Long = {
     def loop(count: Int, nextPrime: Long): Long = {
       if(count == n)

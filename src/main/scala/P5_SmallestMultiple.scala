@@ -1,7 +1,7 @@
 /**
   * Created by cyeniceri  on 23.07.2016.
   */
-class SmallestMultiple {
+class P5_SmallestMultiple {
 
   def findFactor(x: Int): Map[Int, Int]={
     def loop(count: Int, act: Int, divisor: Int, res: Map[Int, Int]): Map[Int, Int] = {
@@ -18,7 +18,7 @@ class SmallestMultiple {
   }
 
   def smallestMultiple(): Int = {
-    val listMap = (2 to 20).toList map(x=> x -> (findFactor(x)))
+    val listMap = (2 to 20).toList map(x=> x -> findFactor(x))
 
     val values = listMap.map(_._2)
     val flat = values.flatten.groupBy(_._1).values.map(x=> x.maxBy(_._2))

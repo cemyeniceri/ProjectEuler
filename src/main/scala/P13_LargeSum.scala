@@ -1,7 +1,7 @@
 /**
   * Created by cyeniceri on 30.07.2016.
   */
-class LargeSum {
+class P13_LargeSum {
 
   val text =
     """|37107287533902102798797998220837590246510135740250
